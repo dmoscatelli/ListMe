@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 	<link rel="stylesheet" href="main.css">
-	<script  type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+	<script  type="text/javascript" src="js/main.js"></script>
 	<meta charset="UTF-8">
 	<title>ListMe</title>
 </head>
 <body>
+
 	<div class="top">
 		<div class="logo"><img src="listme.png" alt="listme" height='40px'></div>
-		<input type="text" class="mybox" name="List" placeholder="Add List Item">
-		<input type="submit" value="+"/>
+		<input type="text" class="mybox" name="List" placeholder="Add List Item" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Add List Item'">
+		<input type="submit" value="+" name="button"/>
 	</div>
 
 

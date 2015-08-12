@@ -430,7 +430,7 @@ th {
 .logo {
 	float: left;
 	margin-top: 30px;
-	margin-left: 15px;
+	margin-left: 25px;
 	position: absolute;
 }
 
@@ -484,6 +484,7 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
+		
 }
 
 
@@ -527,7 +528,14 @@ button:focus {
 	padding-left: 5px;
 }
 
+.second {
+  text-decoration: line-through;
+}
 
+
+.checkcolor {
+  background-color: rgba(0,161,75,0.3);
+}
 
 
 
